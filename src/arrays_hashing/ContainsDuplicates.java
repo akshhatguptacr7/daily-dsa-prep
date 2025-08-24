@@ -54,10 +54,10 @@ public class ContainsDuplicates {
         int[] nums1 = {1, 2, 3, 4, 5};
         int[] nums2 = {1, 2, 3, 1};
 
-        System.out.println("Test 1 (Brute): " + solver.hasDuplicate(nums1));   // false
-        System.out.println("Test 1 (Optimal): " + solver.hasDuplicateOptimal(nums1)); // false
+        System.out.println("Test 1 (Brute): " + solver.hasDuplicate(nums1));
+        System.out.println("Test 1 (Optimal): " + solver.hasDuplicateOptimal(nums1));
 
-        System.out.println("Test 2 (Brute): " + solver.hasDuplicate(nums2));   // true
-        System.out.println("Test 2 (Optimal): " + solver.hasDuplicateOptimal(nums2)); // true
+        System.out.println("Test 2 (Brute): " + solver.hasDuplicate(nums2));
+        System.out.println("Test 2 (Optimal): " + solver.hasDuplicateOptimal(nums2));
     }
 }
